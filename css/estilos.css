@@ -1,13 +1,11 @@
+
 /*Inicio Estilos globales*/
 * {font-family: 'Playpen Sans', cursive; }
-a {text-decoration: none !important;}
+a {text-decoration: none;}
 ul{list-style: none;}
 *{margin: 0; padding: 0;}
 *{box-sizing: border-box;}
 /*Fin Estilos globales*/
-
- 
-@media (min-width: 1280px) {
 
 /* inicio - estilos para mi header*/
 header {
@@ -20,7 +18,7 @@ header {
 
 header .logo {
     color: #f2f2f2;
-    font-size: 50px;
+    font-size: 40px;
     line-height: 200px;
     float: left;
     margin: 10px;
@@ -32,7 +30,7 @@ header nav{
     line-height: 200px;
 }
 
-header nav a {
+header nav li  {
     display: inline-block;
     color: #fff;
     padding: 10px 20px;
@@ -40,10 +38,15 @@ header nav a {
     font-size: 20px;
     font-weight: bold;
 }
-
+header nav a {
+    color: rgb(223, 235, 236);
+}
 header nav a:hover {
-    background: #6bdae2;
-    border-radius: 50px ;
+    color: rgb(0, 38, 255);
+    background: #88e2e9;
+    border-radius: 50px;
+
+ 
 }
 
 /* fin - estilos para mi header*/
@@ -178,6 +181,7 @@ form {
 }
 
 .footer-links h4 {
+    font-size: 20px;
     text-align: center;
     justify-content: center;
     color: #f2f2f2;
@@ -190,16 +194,14 @@ form {
 }
 
 .footer-links ul li a {
-    font-size: 25px;    
+    font-size: 15px;    
     color:#fff;
     text-align: left;
 }
 
 .redes-sociales a {
-    font-size: 30px;
+    font-size: 25px;
     display: inline-block;
     text-align: center;
 }
 /* fin - estilos para mi footer*/
-}
-
